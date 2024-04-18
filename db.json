@@ -1,0 +1,68 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "THE ADVENTURES OF AMINA AL-SIRAFI",
+        "author": "S.A. CHAKRABORTY",
+        "review": "Amina Al-Sirafi is a middle-aged single mother with bad knees who lives in a modest country house and minds her own business.",
+        "poster": "images/55369df8ae8572b05b811a156e92ea51.jpg"
+      },
+      {
+        "id": 2,
+        "title": "HOMECOMING",
+        "author": "KATE MORTON",
+        "review": "The shocking crime, the effects of which echo across continents and generations, is never solved. The town of Tambilla becomes the setting of one of the most baffling murder investigations in the history of South Australia.",
+        "poster": "images/bddeae463dc9e20fd5d42902b1ca0ffd.jpg"
+      },
+      {
+        "id": 3,
+        "title": "VERA WONG’S UNSOLICITED ADVICE FOR MURDERERS",
+        "author": "JESSE Q. SUTANTO",
+        "review": "As the narrative progresses, we follow Vera as she goes about unraveling the mystery behind Marshall Chen's death. Vera Wong's Unsolicited Advice for Murderers by Jesse Q. Sutanto is an entertaining, cozy mystery. I loved how the author depicts the friendship that develops between Vera and her “suspects”.",
+        "poster": "images/c35a7c9f6d995f72fd75d7fa2530f4cf.jpg"
+      },
+      {
+        "id": 4,
+        "title": "THE LAST TALE OF THE FLOWER BRIDE",
+        "author": "ROSHANI CHOKSHI",
+        "review": "The Last Tale of the Flower Bride is a luscious gothic feast, interlaced with fairytales, myth, and the treacherous secrets of a marriage. Wandering the halls of the crumbling House of Dreams, Chokshi spins her tale, interweaving fairy tales into the central narrative amidst broken promises and childhood dreams.",
+        "poster": "/home/rehema/9afbe0662e8414f92a4cf79794142823.png"
+      },
+      {
+        "id": 5,
+        "title": "THE INVOCATIONS",
+        "author": "KRYSTAL SUTHERLAND",
+        "review": "A thrilling dark YA urban fantasy about three young women and their demons. 'This is another brilliant and layered dark urban fantasy story from Krystal Sutherland.",
+        "poster": "images/f48401237dcf9426a9c3bcb02ac82bb4.jpg"
+      },
+      {
+        "id": 6,
+        "title": "HOW TO SELL A HAUNTED HOUSE",
+        "author": "GRADY HENDRIX",
+        "review": "It's another batshit crazy story, with a lot of heart, which is quintessential Hendrix. His twist on the haunted house genre is awesome and ripe for the modern age. You will feel spooked – and moved. And it might make you look twice at any childhood toys you have lying around.",
+        "poster": "images/5e8dad8dddeab83809c3cb0aa01f8b0a.jpg"
+      },
+      {
+        "id": 7,
+        "title": "THE SOULMATE",
+        "author": "SALLY HEPWORTH",
+        "review": "Hepworth is a master of suspense, teasing out a complicated and deadly tale as well as she teases out the complicated and occasionally deadly individuals behind it. None of the four “soulmates”—Pippa, Gabe, Amanda and Amanda's husband—are all good or bad.",
+        "poster": "images/9df7c737a0fd92415b5a7f8d1d7635af.jpg"
+      },
+      {
+        "id": 8,
+        "title": "SILVER IN THE BONE",
+        "author": "ALEXANDRA BRACKEN",
+        "review": "Silver in the Bone is a YA urban fantasy inspired by Arthurian legend with epic battles, a unique found family, lies, betrayal, curses, romance, and so much more. I love the author's writing style, use of dialogue, and interesting characters, but I struggled a bit with the world building and pacing .",
+        "poster": "images/a72847a62b4654326fc95ae7fa2f1b7f.jpg"
+      },
+      {
+        "id": 9,
+        "title": "GREYMIST FAIR BY FRANCESCA ZAPPIA",
+        "author": "FRANCESCA ZAPPIA",
+        "review": "From acclaimed author Francesca Zappia, Greymist Fair is a suspenseful and inventive murder mystery infused with magic and inspired by the lesser-known fairy tales of the Brothers Grimm. Two roads lead into a dark forest.",
+        "poster": "images/95e252e828513a301ef4298d3001deb4.jpg"
+      }
+    ]
+  }
+  

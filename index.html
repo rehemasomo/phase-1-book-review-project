@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="Home">
+    <body background="images/e0604a900a446844ba0e592225ed1354.jpg">
+    <header>
+        <h1>The Books Explorer App</h1>
+    </header>
+   
+    <nav id="navigation">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Add-book">Add books</a></li>
+            <li><a href="#search">Explore books</a></li>
+            <li><a href="#About">About</a></li>
+        </ul>
+    </nav>
+</section>
+    <div class="card-container1">
+    <div class="card">
+        <div class="card-container">
+            <h3>Welcome to Books Explorer</h3>
+        <p>Where Every Page Tells a Story! Dive into the world of literature, where your voice matters. Whether you're a seasoned reader or just starting your literary journey, our platform is your canvas to paint the picture of your reading experiences</p>
+        </div>
+    </div>
+    </div>
+    <section1>
+        <img src="images/315c78d5b67ddefcebc2cbfc764401ac.jpg">
+        <img src="images/53650f05fdacda2c19210cca27ba363a.jpg">
+        <img src="images/113165adc121b8e36cb9e45472df9f54.jpg">
+        <img src="images/8778710f7041abb11bbdbf1339cf9990.jpg">
+        <img src="images/f48401237dcf9426a9c3bcb02ac82bb4.jpg">
+        <img src="images/faad02d1a2cdfe5ceed223394385a26e.jpg">
+    </section>
+
+   
+<ul id="available-books">
+    <h2><u> Books available to review.</u></h2>
+    <li onclick="displayBookDetails('THE ADVENTURES OF AMINA AL-SIRAFI')">THE ADVENTURES OF AMINA AL-SIRAFI</li>
+    <li onclick="displayBookDetails('HOMECOMING')">HOMECOMING</li>
+    <li onclick="displayBookDetails('VERA WONG’S UNSOLICITED ADVICE FOR MURDERERS')">VERA WONG’S UNSOLICITED ADVICE FOR MURDERERS</li>
+    <li onclick="displayBookDetails('THE LAST TALE OF THE FLOWER BRIDE')">THE LAST TALE OF THE FLOWER BRIDE</li>
+    <li onclick="displayBookDetails('THE INVOCATIONS')">THE INVOCATIONS</li>
+    <li onclick="displayBookDetails('HOW TO SELL A HAUNTED HOUSE')">HOW TO SELL A HAUNTED HOUSE</li>
+    <li onclick="displayBookDetails('THE SOULMATE')">THE SOULMATE</li>
+    <li onclick="displayBookDetails('SILVER IN THE BONE')">SILVER IN THE BONE</li>
+    <li onclick="displayBookDetails('GREYMIST FAIR')">GREYMIST FAIR</li>
+</ul>
+
+
+<div id="book-details">
+    <p id="book-title"></p>
+    <p id="book-author"></p>
+    <p id="book-genre"></p>
+    <p id="book-review"></p>
+    <button id="delete-button" style="display: none;">Delete</button>
+</div>
+    
+   <section id="About" >  
+<div class="card-container2">
+    <div class="card">
+        <div class="card-container">
+            <h4>About Book Explorer</h4>
+            <p> At Book Explorer, we believe in the transformative power of literature and the magic of storytelling.</p>
+            <p>Our platform is designed to connect readers from all walks of life, whether you're a seasoned bookworm or just starting your reading journey. Discover new titles, share your thoughts on your favorite reads, and connect with fellow book enthusiasts in our vibrant community.</p>
+            <p>With Book Explorer, every page is an adventure waiting to be explored. Join us as we celebrate the joy of reading and the endless possibilities found within the pages of a book.</p>
+            <p>Happy reading!</p> 
+        </div>
+    </div>
+    </div>
+</section>
+
+    <section2>
+        <img src="images/5e8dad8dddeab83809c3cb0aa01f8b0a.jpg">
+        <img src="images/9df7c737a0fd92415b5a7f8d1d7635af.jpg">
+        <img src="images/55369df8ae8572b05b811a156e92ea51.jpg">
+        <img src="images/a72847a62b4654326fc95ae7fa2f1b7f.jpg">
+        <img src="images/bddeae463dc9e20fd5d42902b1ca0ffd.jpg">
+        <img src="images/c35a7c9f6d995f72fd75d7fa2530f4cf.jpg">
+     </section>
+   
+        <section id="search"> 
+            <select id=" book-select" onchange="displayBookDetails()">
+                    <option value="" disabled selected>Select a book</option>
+                    <option value="Book 1">THE ADVENTURES OF AMINA AL-SIRAFI </option>
+                    <option value="Book 2">HOMECOMING</option>
+                    <option value="Book 3">VERA WONG’S UNSOLICITED ADVICE FOR MURDERERS</option>
+                    <option value="Book 4">THE LAST TALE OF THE FLOWER BRIDE</option>
+                    <option value="Book 5">THE INVOCATIONS</option>
+                    <option value="Book 6">HOW TO SELL A HAUNTED HOUSE</option>
+                    <option value="Book 7">THE SOULMATE</option>
+                    <option value="Book 8">SILVER IN THE BONE</option>
+                    <option value="Book 9">SILVER IN THE BONE</option>
+                    <option value="Book 10">GREYMIST FAIR </option>
+                </select>
+            </form>
+            </section>
+
+            <div class="card-container3">
+                <div class="card">
+                    <div class="card-container">
+                        <p>We believe that every reader's voice deserves to be heard. Have you recently finished a captivating book that left you pondering its characters, themes, or plot twists? We invite you to contribute your insights and opinions by adding a new book review below. Your review could help fellow readers discover their next literary adventure or offer a fresh perspective on a beloved classic. Let's build a vibrant community of book lovers where every opinion matters!</p>
+                        <h3>Add a new book</h3>
+                    </div>
+                </div>
+                </div>
+
+
+        <form id="add-book-form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <input type="text" id="genre" placeholder="Genre">
+            <textarea id="review" placeholder="Review"></textarea>
+            <button type="submit">Add Book</button>
+        </form>
+        
+<div id="success-message" style="display: none;">Success! Book added successfully.</div>
+
+
+        <footer>
+            <div class="footer-content">
+                <p>Happy reading with <span>Books Explorer</span>! Explore, share, and discover your next favorite book. Connect with fellow book lovers and dive into a world of endless stories.</p>
+            </div>
+        </footer>
+        
+    <script src="index.js"></script>
+</body>
+</html>
+
