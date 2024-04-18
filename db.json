@@ -63,6 +63,8 @@
         "review": "From acclaimed author Francesca Zappia, Greymist Fair is a suspenseful and inventive murder mystery infused with magic and inspired by the lesser-known fairy tales of the Brothers Grimm. Two roads lead into a dark forest.",
         "poster": "images/95e252e828513a301ef4298d3001deb4.jpg"
       }
-    ]
+    ],
+  "scripts": {
+    "start": "json-server db.json --port 3000"
   }
-  
+}
