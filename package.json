@@ -1,0 +1,15 @@
+{
+  "name": "phase-1-book-review-project",
+  "version": "1.0.0",
+  "description": "# Project Description a web application where you can explore, review, and share your favorite books with fellow readers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
